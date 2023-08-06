@@ -1,0 +1,185 @@
+html {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background:
+        url(../img/1Vector.svg) 0px 531px no-repeat,
+        url(../img/Soft\ Star.svg) 175px 329px no-repeat,
+        url(../img/2.png) 0px 248.89px no-repeat,
+        url(../img/Vector\ 76.png) 278.13px 411.41px no-repeat,
+        url(../img/Group.png) 302.24px 293px no-repeat,
+        url(../img/Vector.png) 515px 330px no-repeat,
+        url(../img/Vector1.png) 495px 462px no-repeat,
+        url(../img/Vector2.png) 275px 509px no-repeat,
+        url(../img/Group1.png) 383px 500px no-repeat,
+        url(../img/Group2.png) 42px 490px no-repeat,
+        url(../img/Vector3.png) 314px 565px no-repeat,
+        url(../img/Vector\ 80.png) 309.04px 627.73px no-repeat,
+        url(../img/Vector4.png) 371px 622px no-repeat,
+        url(../img/Vector5.png) 37px 835px no-repeat,
+        url(../img/Vector\ 79.png) 0px 629.72px no-repeat,
+        url(../img/Frame.png) 284px 758px no-repeat,
+        url(../img/Vector\ 78.png) 423.9px 726.78px no-repeat,
+        url(../img/Frame1.png) 60px 878px no-repeat,
+        url(../img/Vector6.png) 237px 817px no-repeat,
+        url(../img/Group3.png) 226px 845px no-repeat,
+        url(../img/Frame2.png) 355px 825px no-repeat,
+        url(../img/Vector\ 77.png) 177.55px 839.39px no-repeat,
+        url(../img/Vector7.png) 494.56px 844.83px no-repeat,
+        url(../img/Vector8.png) 485px 955px no-repeat,
+        url(../img/Vector9.png) 728px 925px no-repeat,
+        url(../img/Vector5.png) 797px 961px no-repeat,
+        url(../img/Vector\ 73.png) 763.46px 758.17px no-repeat,
+        url(../img/Group4.png) 1092px 745px no-repeat,
+        url(../img/Vector10.png) 1005px 875px no-repeat,
+        url(../img/Group5.png) 1079px 827px no-repeat,
+        url(../img/Group6.png) 935px 723px no-repeat,
+        url(../img/Vector11.png) 1152px 727px no-repeat,
+        url(../img/Vector\ 72.png) 1384px 691px no-repeat,
+        url(../img/Group7.png) 991px 640px no-repeat,
+        url(../img/Vector\ 71.png) 1103.43px 566.53px no-repeat,
+        url(../img/Vector1.png) 902px 590px no-repeat,
+        url(../img/Group8.png) 1275px 640px no-repeat,
+        url(../img/Group9.png) 1328px 531px no-repeat,
+        url(../img/Group10.png) 1057px 496px no-repeat,
+        url(../img/Vector6.png) 1296px 526px no-repeat,
+        url(../img/Vector\ 74.png) 949.69px 488.27px no-repeat,
+        url(../img/Group11.png) 902px 310px no-repeat,
+        url(../img/Vector\ 75.png) 1047px 435px no-repeat,
+        url(../img/Vector5.png) 1287px 436px no-repeat,
+        url(../img/Vector11.png) 1313px 202px no-repeat,
+        url(../img/Vector\ 69.png) 1110px 120px no-repeat,
+        url(../img/1.png) 0px 0px no-repeat,
+        rgb(255, 255, 255);
+}
+
+header {
+    padding-top: 31px;
+    padding-left: 47px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    align-items: center;
+}
+
+input {
+    outline: none;
+}
+
+form {
+    display: flex;
+    margin-left: 331px;
+    width: max-content;
+    height: 30px;
+}
+
+.header_search {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+    width: 372px;
+    height: 30px;
+}
+
+.button_search {
+    background: url(../img/search.png) 0px 5px no-repeat;
+    width: 21px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+}
+
+.nav_item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin-left: 130px;
+}
+
+.nav_list a {
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav_list:nth-child(2) {
+    margin-left: 53px;
+}
+
+.nav_list:last-child {
+    margin-left: 35px;
+}
+
+.nav_list:hover a {
+    color: #FAC52F;
+    text-shadow: 0px 4px 4px rgba(63, 76, 139, 0.20);
+}
+
+main {
+    display: flex;
+    width: 420px;
+    margin: 256px auto 0px auto;
+    flex-direction: column;
+}
+
+.img_main1 {
+    width: 410px;
+    height: 306px;
+    margin: 0 auto;
+}
+
+.p_main {
+    margin: 0px;
+    margin-top: 35px;
+    width: 420px;
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.but_book {
+    width: 135px;
+    height: 57px;
+    border: 2px solid #002AFF;
+    background: #FFF;
+    color: #002AFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+.a_book {
+    width: 135px;
+    margin: 27px auto 0px auto;
+}
